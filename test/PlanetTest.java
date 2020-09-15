@@ -7,7 +7,9 @@ class PlanetTestOfObjectInfo
     public void testAddGet1(){
         Planet earth = new Planet("12",12,"earth");
 
-        assertEquals(12,earth.speed)
+        assertEquals(12,earth.getSpeed());
+        assertEquals("12",earth.getMass());
+        assertEquals("earth",earth.getName());
 
     }
 

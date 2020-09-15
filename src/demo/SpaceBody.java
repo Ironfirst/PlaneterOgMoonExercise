@@ -23,7 +23,22 @@ abstract class SpaceBody
                 '}';
     }
 
-/*
+    public String getMass()
+    {
+        return mass;
+    }
+
+    public double getSpeed()
+    {
+        return speed;
+    }
+
+    public String getName()
+    {
+        return name;
+    }
+
+    /*
     @Override
     public boolean equals(Object p){
         if(this.speed>=p.speed){
