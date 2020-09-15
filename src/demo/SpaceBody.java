@@ -38,6 +38,7 @@ abstract class SpaceBody
         return name;
     }
 
+
     /*
     @Override
     public boolean equals(Object p){
